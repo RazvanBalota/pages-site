@@ -22,7 +22,7 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
                     AI3 este o comunitate de pasionați de tehnologie,
                     antreprenori și inovatori pasionați de construirea unui
                     ecosistem tehnologic înfloritor în Alba. Suntem un grup
-                    divers de oameni cu medii și experiențe diferite, dar
+                    divers de oameni din medii și cu experiențe diferite, dar
                     împărtășim cu toții aceeași viziune: să facem din Alba un
                     loc mai bun pentru a trăi și a lucra.
                   </p>

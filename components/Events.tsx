@@ -33,9 +33,6 @@ export function Events(props: JSX.HTMLAttributes<HTMLElement>) {
             </div>
             <div class="flex flex-col w-16 lg:w-72 w-full">
             </div>
-            {/* <div>
-              <img src="/photos/microfon.png" alt="anti-ateliere"/>
-            </div> */}
           </figure>
         </div>
 
@@ -45,19 +42,14 @@ export function Events(props: JSX.HTMLAttributes<HTMLElement>) {
               <blockquote class=" leading-6 text-gray-900  sm:text-lg sm:leading-6">
                 <h1 class="text-4xl font-medium">Coder Dojo</h1>
                 <div class="flex flex-col text-md lg:text-xl tracking-tight ">
-                  <p class="pb-2 ">
+                  <p>
                     CoderDojo este un club de informatică bazat pe voluntariat, care se adresează copiilor cu 
                     vârste intre 7 si 17 ani.
                   </p>
-                  <p class="pb-2">
+                  <p class="pb-6">
                     Dojo-urile sunt un spațiu pentru copii și adolescenți pentru a explora tehnologia într-un 
                     mediu informal, creativ, sigur și social. La CoderDojo vrem să ajutăm copiii și adolescenții 
                     să realizeze că își pot construi un viitor pozitiv prin programare.
-                  </p>
-                  <p class="pb-6">
-                    Mișcarea CoderDojo consideră că înțelegerea limbajelor de programare este din ce în 
-                    ce mai importantă în lumea modernă, că este mai bine și mai ușor să înveți aceste abilități 
-                    devreme și că nimănui nu ar trebui să i se refuze oportunitatea de a face acest lucru.
                   </p>
                   <p class="mb-8">Mai multe detalii pe <a href="https://www.facebook.com/coderdojoalbaiulia/" class="text-blue-500 font-medium hover:text-blue-600 transisiton">facebook</a>.</p>
                 </div>

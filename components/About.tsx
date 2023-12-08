@@ -12,9 +12,9 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
             <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
               <figure class="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote class="text-lg leading-6 text-gray-900">
-                  <div class="w-16 lg:row-span-4 lg:w-72 sm:text-2xl leading-10">
-                    <h2>
-                      <b>Cine suntem</b>
+                  <div class=" w-16 lg:row-span-4 lg:w-72 sm:text-2xl leading-10">
+                    <h2 class="text-3xl font-medium">
+                    Cine suntem
                     </h2>
                   </div>
                   <p>
@@ -33,8 +33,8 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
               <figure class="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote class="text-lg leading-6 text-gray-900">
                   <div class="w-16 lg:row-span-4 lg:w-72 sm:text-2xl leading-10">
-                    <h2>
-                      <b>Obiectivele noastre</b>
+                    <h2 class="text-3xl font-medium">
+                      Obiectivele noastre
                     </h2>
                   </div>
                   <p>

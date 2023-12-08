@@ -9,7 +9,7 @@ import { Stat } from "../components/Stat.tsx";
 export default function Home() {
   return (
     <>
-      <main class="flex flex-col min-h-screen font-work">
+      <main class="flex flex-col min-h-screen font-arial">
         <Header />
         <div class="flex-grow flex-col flex items-center">
           <Hero class="bg-transparent" />

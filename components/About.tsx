@@ -8,10 +8,10 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
     <>
       <section
         {...props}
-        class={`${props.class} px-4 lg:px-0 p-8  w-full flex justify-center bg-gray-50 `}
+        class={`${props.class} px-4 lg:px-0 p-8 w-full flex justify-center bg-gray-50`}
       >
         <div class="mx-auto max-w-7xl lg:px-8">
-          <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none md:grid-cols-1 lg:grid-cols-2">
             <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
               <figure class="mt-0 lg:mt-10 flex flex-auto flex-col justify-between">
                 <blockquote class="text-lg leading-6 text-gray-900">
@@ -28,14 +28,6 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
                 </blockquote>
               </figure>
             </div>
-          </div>
-          <div class="mt-8 lg:mt-20 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              class="rounded-md bg-blue-300 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Află mai multe...
-            </a>
           </div>
         </div>
       </section>

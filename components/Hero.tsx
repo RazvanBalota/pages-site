@@ -2,7 +2,7 @@ import { JSX } from "preact";
 
 export function Hero(props: JSX.HTMLAttributes<HTMLElement>) {
   return (
-    <section {...props} class={`${props.class} hero flex max-w-screen-xl`}>
+    <section {...props} class={`${props.class} hero flex lg:max-w-screen-xl md:max-w-2xl`}>
       <div class="hero-content flex-col lg:flex-row-reverse max-w-[100rem]">
         <img
           alt="a13"

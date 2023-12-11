@@ -7,13 +7,14 @@ export function Events(props: JSX.HTMLAttributes<HTMLElement>) {
     <>
       <section
         {...props}
-        class={`${props.class} bg-white w-screen lg:container-lg flex flex-col px-6 lg:px-12 pt-8`}
+        class={`${props.class} bg-white px-4 lg:px-0 p-8 w-full flex justify-center md:max-w-2xl lg:max-w-7xl md:px-0`}
       >
+        <div class="mx-auto max-w-7xl lg:px-8">
           <div class="pb-4">
             <figure>
               <blockquote class=" leading-6 text-gray-900  sm:text-lg sm:leading-6 w-full lg:w-2/3">
                 <Title title="Anti-Ateliere"/>
-                <Paragraph paragraph="AI3 organizează întâlniri periodice unde se discută diferite strategii de îmbunătățire și planificare a proiectelor și evenimentelor conturând rolul județului Alba în ecosistemul tehnologic al regiunii."/>         
+                <Paragraph paragraph="AI3 organizează întâlniri periodice unde se discută diferite strategii de îmbunătățire/planificare a proiectelor și evenimentelor conturând rolul județului Alba în ecosistemul tehnologic al regiunii."/>         
               </blockquote>
             </figure>
           </div>
@@ -49,6 +50,7 @@ export function Events(props: JSX.HTMLAttributes<HTMLElement>) {
                 <img src="/photos/coderdojo.jpeg" alt="anti-ateliere"/>
               </div>
             </figure>
+            </div>
           </div>
       </section>
     </>

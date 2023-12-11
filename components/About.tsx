@@ -15,16 +15,16 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
             <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
               <figure class="mt-0 lg:mt-10 flex flex-auto flex-col justify-between">
                 <blockquote class="text-lg leading-6 text-gray-900">
-                    <Title title="Cine suntem" />
-                    <Paragraph paragraph="AI3 este primul cluster de IT&C din Alba din care face parte un grup de persoane pasionate de tehnologie cu scopul de a construi un ecosistem potrivit dezvoltării domeniului." />
+                    <Title>Cine suntem</Title>
+                    <Paragraph>AI3 este primul cluster de IT&C din Alba din care face parte un grup de persoane pasionate de tehnologie cu scopul de a construi un ecosistem potrivit dezvoltării domeniului.</Paragraph>
                 </blockquote>
               </figure>
             </div>
             <div class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
               <figure class="mt-0 lg:mt-10 flex flex-auto flex-col justify-between">
                 <blockquote class="text-lg leading-6 text-gray-900">
-                  <Title title="Obiectivele noastre" />
-                  <Paragraph paragraph="AI3 își propune să propulseze Alba în topul județelor inovatoare tehnologic prin creșterea competivității companiilor și instituțiilor din sectorul IT&C din județul nostru și prin promovarea antreprenoriatului, identificarea opțiunilor de carieră și reprezentarea internațională a comunității de IT locală."/>
+                  <Title>Obiectivele noastre</Title>
+                  <Paragraph>AI3 își propune să propulseze Alba în topul județelor inovatoare tehnologic prin creșterea competivității companiilor și instituțiilor din sectorul IT&C din județul nostru și prin promovarea antreprenoriatului, identificarea opțiunilor de carieră și reprezentarea internațională a comunității de IT locală.</Paragraph>
                 </blockquote>
               </figure>
             </div>

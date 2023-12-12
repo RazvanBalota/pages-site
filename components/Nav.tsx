@@ -1,16 +1,19 @@
 type Props = {
-  heading: string;
-  chlidren: any;
+  header: string;
+  content: 
+  {
+    title: string,
+    href: string
+  }[];
 };
 
-export function Nav({ heading, children }: Props) {
+export function Nav({ header, content }: Props) {
   return (
     <nav class="flex flex-col text-sm lg:text-md">
-      <header class="font-medium uppercase">{heading}</header>
-      {children.map((child) => (
-        <a href="#" class="hover:text-gray-900 transition">{child}</a>
+      <header class="font-medium uppercase">{header}</header>
+      {content.map((child) => (
+        <a href={child.href} class="hover:text-gray-900 transition">{child.title}</a>
       ))}
-      <a href="#" class="hover:text-gray-900 transition">Contact</a>
     </nav>
   );
 }

@@ -16,9 +16,12 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
                 <blockquote class="text-lg leading-6 text-gray-900">
                   <Title>Cine Suntem</Title>
                   <Paragraph>
-                    AI3 este primul cluster de IT&C din Alba din care face parte
-                    un grup de persoane pasionate de tehnologie cu scopul de a
-                    construi un ecosistem potrivit dezvoltării domeniului.
+                    <>
+                      AI3 este primul cluster de IT&C din Alba din care face
+                      parte un grup de persoane pasionate de tehnologie cu
+                      scopul de a construi un ecosistem potrivit dezvoltării
+                      domeniului.
+                    </>
                   </Paragraph>
                 </blockquote>
               </figure>
@@ -28,12 +31,14 @@ export function About(props: JSX.HTMLAttributes<HTMLElement>) {
                 <blockquote class="text-lg leading-6 text-gray-900">
                   <Title>Obiectivele Noastre</Title>
                   <Paragraph>
-                    AI3 își propune să propulseze Alba în topul județelor
-                    inovatoare tehnologic prin creșterea competivității
-                    companiilor și instituțiilor din sectorul IT&C din județul
-                    nostru și prin promovarea antreprenoriatului, identificarea
-                    opțiunilor de carieră și reprezentarea internațională a
-                    comunității de IT locală.
+                    <>
+                      AI3 își propune să propulseze Alba în topul județelor
+                      inovatoare tehnologic prin creșterea competivității
+                      companiilor și instituțiilor din sectorul IT&C din județul
+                      nostru și prin promovarea antreprenoriatului,
+                      identificarea opțiunilor de carieră și reprezentarea
+                      internațională a comunității de IT locală.
+                    </>
                   </Paragraph>
                 </blockquote>
               </figure>

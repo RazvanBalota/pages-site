@@ -3,7 +3,6 @@ import { Nav } from "./Nav.tsx";
 import { association, legal } from "../routes/footer.tsx";
 
 export function Footer(props: JSX.HTMLAttributes<HTMLElement>) {
-
   return (
     <>
       <footer class="py-4 bg-base-200 w-full">

@@ -11,8 +11,8 @@ export default {
         "lato": ["Lato"],
         "garamond": ["Garamond"],
         "roboto": ["Roboto"],
-        "poppins": ["Poppins"]
+        "poppins": ["Poppins"],
       },
     },
-  }
+  },
 } as Options;

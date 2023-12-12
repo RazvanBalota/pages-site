@@ -6,10 +6,10 @@ export function Members(props: JSX.HTMLAttributes<HTMLElement>) {
       {...props}
       class={`${props.class} p-8 bg-neutral-content w-full`}
     >
-      <h2 class="text-black text-center text-2xl text-extrabold mb-4">Members</h2>
-      <div
-        class="carousel carousel-center space-x-24  flex  justify-center mt-8 "
-      >
+      <h2 class="text-black text-center text-2xl text-extrabold mb-4">
+        Members
+      </h2>
+      <div class="carousel carousel-center space-x-24  flex  justify-center mt-8 ">
         <div class="carousel-item">
           <img
             class="h-16"

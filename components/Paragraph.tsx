@@ -1,6 +1,6 @@
 
 type Props = {
-  children: any
+  children: any 
 }
 
 export default function Paragraph({children}: Props) {

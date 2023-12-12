@@ -1,38 +1,14 @@
 import { JSX } from "preact/jsx-runtime";
 import { Nav } from "./Nav.tsx";
+import { association, legal } from "../routes/footer.tsx";
 
 export function Footer(props: JSX.HTMLAttributes<HTMLElement>) {
-
-  const association = [
-    {
-      title: "Despre noi", 
-      href: "#"
-    },
-    {
-      title: "Contact",
-      href: "#"
-    }
-  ]
-  const legal = [
-    {
-      title:"Termeni și condiții",
-      href:"#"
-    }, 
-    {
-      title:"Politică securitate",
-      href:"#" 
-    },
-    {
-      title:"Politică cookies",
-      href:"/#"
-    }
-  ]
 
   return (
     <>
       <footer class="py-4 bg-base-200 w-full">
         <div class="mx-auto max-w-7xl flex justify-between px-4 lg:px-8 md:max-w-2xl lg:max-w-7xl">
-          <Nav header="Asociație" content={association}/>
+          <Nav header="Asociație" content={association} />
           <Nav header="Legal" content={legal} />
         </div>
       </footer>

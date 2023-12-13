@@ -33,7 +33,10 @@ export function Stat(props: JSX.HTMLAttributes<HTMLElement>) {
   }).format(profit / turnover);
 
   return (
-    <section {...props} class={`${props.class} stats shadow flex max-w-screen-xl p-8`}>
+    <section
+      {...props}
+      class={`${props.class} stats shadow flex max-w-screen-xl p-8`}
+    >
       <div class="stat">
         <div class="stat-figure text-secondary">
           <IconBuilding />

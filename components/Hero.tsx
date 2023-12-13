@@ -2,7 +2,10 @@ import { JSX } from "preact";
 
 export function Hero(props: JSX.HTMLAttributes<HTMLElement>) {
   return (
-    <section {...props} class={`${props.class} hero flex max-w-screen-xl`}>
+    <section
+      {...props}
+      class={`${props.class} hero flex lg:max-w-screen-xl md:max-w-2xl`}
+    >
       <div class="hero-content flex-col lg:flex-row-reverse max-w-[100rem]">
         <img
           alt="a13"
@@ -21,7 +24,9 @@ export function Hero(props: JSX.HTMLAttributes<HTMLElement>) {
             tău!<br />Fii parte din peisajul inovativ din Alba!
           </p>
           <div class="flex justify-center items-center lg:block">
-            <button class="btn btn-primary bg-orange-300 hover:bg-orange-400 transition">Devino membru</button>
+            <button class="btn btn-primary bg-orange-300 hover:bg-orange-400 transition">
+              Devino membru
+            </button>
           </div>
         </div>
       </div>
